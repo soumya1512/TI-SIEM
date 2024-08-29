@@ -1,0 +1,20 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "SIEM_API_URL": "https://my-deployment-5fec7c.kb.asia-south1.gcp.elastic-cloud.com:9243",
+                "SIEM_TOKEN": "TnowcmtKRUJHUWM5ZXRSOGRRdTg6cWtzc0hQT0ZSOG1vNlpWTHRudm05dw==",
+                "VIRUSTOTAL_API_KEY": "602dbfb748402f6f158a046631d4e827d327da9d4b6e444164c404bc06d5bb79",
+                "DB_CONNECTION_STRING": "sqlite:///enriched_alerts.db",
+                "PROCESS_INTERVAL": "60"
+            }
+        }
+    ]
+}

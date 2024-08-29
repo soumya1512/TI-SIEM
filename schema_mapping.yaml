@@ -1,0 +1,5 @@
+# schema_mapping.yaml
+IP_Address: ip
+threat_type: type
+timestamp: time
+description: desc
